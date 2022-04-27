@@ -1,0 +1,163 @@
+
+
+
+%		****************************************************************************
+%			Übersicht zu den Funktionsbefehlen für die Eintragungen
+%		****************************************************************************
+
+%\cvitem[<Option>]{<Argument 1>}{<Argument 2>}
+%\cvdoubleitem[<Option>]{Argument 1}{Argument 2}{Argument 3}{Argument 4}
+%\cvlistitem[<Label>]{<Item>}
+%\cvlistdoubleitem[<Label>]{<Item 1>}{<Item 2>}
+%\cventry[<Option>]{<Argument 1>}{<Argument 2>}{<Argument 3>}{<Arg. 4>}{<Arg. 5>}{<Arg. 6>}
+%\cvitemwithcomment[<Option>]{<Argument 1>}{<Argument 2>}{<Argument 3>}
+
+
+
+
+
+%Ergänzung:
+%Wenn kein Photo angegeben wird, dann setze irgend ein Bild aus den Logos ein und setze die Größe auf Null!
+\providecommand{\HTWmakecvtitle}{
+\makeatletter
+\ifx\@photo\empty
+\setlength{\fboxsep}{0pt}
+\photo[0cm]{pspictures/figures/logo/logo_long}
+\fi
+\makeatother
+\makecvtitle
+}
+
+\HTWmakecvtitle					% CV Titel ausgeben
+
+
+\makeatletter
+\section{\textsc{Persönliche Angaben}}
+\cventry{Name}{\@firstname\hspace{0em} \@lastname}{}{}{}{}
+\cventry{Anschrift}{\@addressstreet , \@addresscity}{}{}{}{}
+\cventry{Geboren}{08.08. 1995}{Berlin}{}{}{}
+\cventry{Familienstand}{ledig}{}{}{}{}
+\cventry{Nationalität}{deutsch}{}{}{}{}
+
+
+
+
+
+\section{\textsc{Kontakt}}
+\cventry{Telefon}{\@mobile}{}{}{}{}
+\cventry{E-Mail}{\@email}{}{}{}{}
+
+
+
+
+
+
+
+
+\section{\textsc{Werdegang}}
+\subsection{\textsc{Beruflich}}
+\cventry{seit 04.2017}{ABC Programmierer GmbH}{}{}{}{Software-Entwicklung (freiberuflich),\newline Programmiersprachen: C und Python.}
+
+
+
+
+
+
+
+
+
+\subsection{\textsc{Akademisch}}
+\cventry{10.2016 bis 04.2017}{Hochschule für Technik und Wirtschaft Berlin Berlin}{}{}{}{}
+
+
+
+
+
+
+
+
+
+\subsection{\textsc{Schulisch}}
+\cventry{09.2015 bis 07.2016}{Gymnasium XY}{}{}{}{}
+
+
+
+
+
+
+
+
+
+\subsection{\textsc{Sprachkenntnisse}}
+\cvlanguage{Deutsch}{Muttersprache.}{}
+\cvlanguage{Englisch}{Verhandlungssicher.}{}
+
+
+
+
+
+
+
+
+
+\section{\textbf{Text der Funktionsbefehle}}
+\subsection{Text des Funktionsbefehles 1}
+\cvitem{Argument 1}{Argument 2}
+\cvitem{Argument 3}{Argument 4}
+
+
+
+
+\subsection{Text des Funktionsbefehles 2}
+\cvdoubleitem{Argument 1}{Argument 2}{Argument 3}{Argument 4}
+\cvdoubleitem{Argument 5}{Argument 6}{Argument 7}{Argument 8}
+
+
+
+
+\subsection{Text des Funktionsbefehles 3}
+\cvlistitem{Eintrag 1}
+\cvlistitem{Eintrag 2}
+\cvlistitem{Eintrag 3}
+
+
+
+
+\subsection{Text des Funktionsbefehles 4}
+\cvlistdoubleitem{Eintrag 1.1}{Eintrag 1.2}
+\cvlistdoubleitem{Eintrag 2.1}{Eintrag 2.2}
+\cvlistdoubleitem{Eintrag 3.1}{Eintrag 3.2}
+
+
+
+
+\subsection{Text des Funktionsbefehles 5}
+\cventry{Eintrag 11}{Eintrag 12}{Eintrag 13}{Eintrag 14}{Eintrag 15}{Eintrag 16}
+\cventry{Eintrag 21}{Eintrag 22}{Eintrag 23}{Eintrag 24}{Eintrag 25}{Eintrag 26}
+
+
+
+
+\subsection{Text des Funktionsbefehles 5}
+\cvitemwithcomment{Eintrag 11}{Eintrag 12}{Eintrag 13}
+\cvitemwithcomment{Eintrag 21}{Eintrag 22}{Eintrag 23}
+
+
+
+
+\subsection{Text des Funktionsbefehles 7}
+\cvlanguage{Deutsch}{Muttersprache.}{A1}
+
+
+
+
+
+
+
+
+\vspace{3cm}
+\quad\includegraphics[scale=\signatureScale]{\signature}
+%\quad\includegraphics[scale=0.5]{fig/SignaturPlatzhalter.png}
+\vskip -1.8cm
+Berlin, \today
+

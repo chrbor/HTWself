@@ -1,0 +1,116 @@
+%    +=================================================+
+%    |    LaTeX package file                           |
+%    +=================================================+
+%    |    Name:     HTWColor                           |
+%    |                                                 |
+%    |    Purpose:  Anwendung für Hochschulalltag      |
+%    |                                                 |
+%    |    Created:  2022			                   |
+%    |                                                 |
+%    |    Notiz:    Dieses Package gibt eine Liste an  |
+%    |              Farben an, die für die HTW Berlin  |
+%    |              stehen                             |
+%    +=================================================+
+
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{HTWColor}[2022/21/02 general purpose]
+
+\DeclareOption*{\PackageWarning{HTWColor}{Das package HTWColor ist eine einfache Liste an Farben und nimmt daher keine Argumente an}}
+
+%Wende Eingaben an:
+\ProcessOptions\relax
+
+%Packages:
+\RequirePackage{xcolor}
+
+% corporate design HTW Berlin
+% see https://corporatedesign.htw-berlin.de/schrift-farbe/markenfarben/
+
+%Grün: Hauptfarbe
+\definecolor{HTWGreenDark}{HTML}{3B5C00}
+\definecolor{HTWGreen100}{HTML}{76B900}
+\definecolor{HTWGreen90}{HTML}{93c33a}
+\definecolor{HTWGreen85}{HTML}{98c645}
+\definecolor{HTWGreen80}{HTML}{9fc951}
+\definecolor{HTWGreen75}{HTML}{a5ce5c}
+\definecolor{HTWGreen70}{HTML}{aad065}
+\definecolor{HTWGreen65}{HTML}{b1d471}
+\definecolor{HTWGreen60}{HTML}{b7d77c}
+\definecolor{HTWGreen55}{HTML}{bdda87}
+\definecolor{HTWGreen50}{HTML}{c2dd91}
+\definecolor{HTWGreen45}{HTML}{c8e19c}
+\definecolor{HTWGreen40}{HTML}{cfe5a8}
+\definecolor{HTWGreen35}{HTML}{d5e8b3}
+\definecolor{HTWGreen30}{HTML}{dbebbd}
+\definecolor{HTWGreen25}{HTML}{e1eec8}
+\definecolor{HTWGreen20}{HTML}{e7f2d3}
+\definecolor{HTWGreen15}{HTML}{edf5df}
+\definecolor{HTWGreen10}{HTML}{f3f8e9}
+\definecolor{HTWGreen5}{HTML}{f9fcf4}
+
+%Blau: Serviceeinrichtungen(zB Hochschulsport oder Bibliothek)
+\definecolor{HTWBlueDark}{HTML}{004168}
+\definecolor{HTWBlue100}{HTML}{0082D1}
+\definecolor{HTWBlue90}{HTML}{1A8FD5}
+\definecolor{HTWBlue85}{HTML}{2795D7}
+\definecolor{HTWBlue80}{HTML}{339CDA}
+\definecolor{HTWBlue75}{HTML}{40A2DC}
+\definecolor{HTWBlue70}{HTML}{4DA9DE}
+\definecolor{HTWBlue65}{HTML}{5AAFE1}
+\definecolor{HTWBlue60}{HTML}{66B6E3}
+\definecolor{HTWBlue55}{HTML}{73BCE5}
+\definecolor{HTWBlue50}{HTML}{80C3E7}
+\definecolor{HTWBlue45}{HTML}{8DC9EA}
+\definecolor{HTWBlue40}{HTML}{99D0EC}
+\definecolor{HTWBlue35}{HTML}{A6D6EE}
+\definecolor{HTWBlue30}{HTML}{B3DDF1}
+\definecolor{HTWBlue25}{HTML}{C0E3F3}
+\definecolor{HTWBlue20}{HTML}{CCEAF5}
+\definecolor{HTWBlue15}{HTML}{D9F0F7}
+\definecolor{HTWBlue10}{HTML}{E6F7FA}
+\definecolor{HTWBlue5}{HTML}{F3FDFC}
+
+%Orange: Infrastruktur(zB Mensa)
+\definecolor{HTWOrangeDark}{HTML}{7F2F00}
+\definecolor{HTWOrange100}{HTML}{FF5F00}
+\definecolor{HTWOrange90}{HTML}{FF6F1A}
+\definecolor{HTWOrange85}{HTML}{FF7727}
+\definecolor{HTWOrange80}{HTML}{FF7F33}
+\definecolor{HTWOrange75}{HTML}{FF8740}
+\definecolor{HTWOrange70}{HTML}{FF8F4D}
+\definecolor{HTWOrange65}{HTML}{FF975A}
+\definecolor{HTWOrange60}{HTML}{FF9F66}
+\definecolor{HTWOrange55}{HTML}{FFA773}
+\definecolor{HTWOrange50}{HTML}{FFAF80}
+\definecolor{HTWOrange45}{HTML}{FFB78D}
+\definecolor{HTWOrange40}{HTML}{FFBF99}
+\definecolor{HTWOrange35}{HTML}{FFC7A6}
+\definecolor{HTWOrange30}{HTML}{FFCFB3}
+\definecolor{HTWOrange25}{HTML}{FFD7C0}
+\definecolor{HTWOrange20}{HTML}{FFDFCC}
+\definecolor{HTWOrange15}{HTML}{FFE7D9}
+\definecolor{HTWOrange10}{HTML}{FFEFE6}
+\definecolor{HTWOrange5}{HTML}{FFF7F3}
+
+%Grau: Abrunden
+\definecolor{HTWGray100}{HTML}{575757}
+\definecolor{HTWGray100}{HTML}{AFAFAF}
+\definecolor{HTWGray90}{HTML}{b7b7b7}
+\definecolor{HTWGray85}{HTML}{bbbbbb}
+\definecolor{HTWGray80}{HTML}{bfbfbf}
+\definecolor{HTWGray75}{HTML}{c3c3c3}
+\definecolor{HTWGray70}{HTML}{c7c7c7}
+\definecolor{HTWGray65}{HTML}{cbcbcb}
+\definecolor{HTWGray60}{HTML}{cfcfcf}
+\definecolor{HTWGray55}{HTML}{d3d3d3}
+\definecolor{HTWGray50}{HTML}{d7d7d7}
+\definecolor{HTWGray45}{HTML}{dbdbdb}
+\definecolor{HTWGray40}{HTML}{dfdfdf}
+\definecolor{HTWGray35}{HTML}{e3e3e3}
+\definecolor{HTWGray30}{HTML}{e7e7e7}
+\definecolor{HTWGray25}{HTML}{ebebeb}
+\definecolor{HTWGray20}{HTML}{efefef}
+\definecolor{HTWGray15}{HTML}{f3f3f3}
+\definecolor{HTWGray10}{HTML}{f7f7f7}
+\definecolor{HTWGray5}{HTML}{fbfbfb}

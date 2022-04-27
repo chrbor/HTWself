@@ -1,0 +1,10 @@
+\babel@toc {ngerman}{}
+\contentsline {section}{Contents}{2}{chapter*.2}% 
+\contentsline {chapter}{\numberline {1}Das Schachbrett}{3}{chapter.1}% 
+\contentsline {chapter}{\numberline {2}Überschriften}{5}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}Sektion}{5}{section.2.1}% 
+\contentsline {subsection}{\numberline {2.1.1}Untersektion}{5}{subsection.2.1.1}% 
+\contentsline {subsubsection}{Unteruntersektion}{5}{subsection.2.1.1}% 
+\contentsline {chapter}{\numberline {3}Listen und Boxen}{6}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}Startzüge}{6}{section.3.1}% 
+\contentsline {subsection}{\numberline {3.1.1}Varianten}{7}{subsection.3.1.1}% 

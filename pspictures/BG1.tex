@@ -1,0 +1,48 @@
+\documentclass[11pt]{standalone}
+%Präambel:
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+
+
+\usepackage{pstricks}
+\usepackage{xcolor}
+\usepackage{HTWColor}
+
+%Ermöglicht das Einbinden von PNG und JPEG bei pstricks:
+\usepackage{auto-pst-pdf}
+
+%Definiere Unit-Größe:
+\psset{xunit=0.3cm,yunit=0.3cm}%Bei a4=210mm x 297mm ergeben sich 70 x 99 Felder
+
+%Logik:
+\usepackage{multido}
+
+%\usepackage{HTWMath}
+
+\begin{document}
+%18-60
+\begin{pspicture}[showgrid=false](0,0)(70,99)
+% \rput(52,89){\includegraphics[height=1.5cm, keepaspectratio=true]{figures/logo/logo_long}}
+% \rput(10,89){\includegraphics[height=4cm, keepaspectratio=true]{figures/logo/CE_logo}}
+% \rput[l](15,90){\texttt{\bfseries\large Fachbereich 1}} 
+% \rput[l](15,88){\texttt{\bfseries\large Computer Engineering (Master)}} 
+ 
+% \rput(18,89){\includegraphics[height=1.5cm, keepaspectratio=true]{figures/logo/logo_long}}
+% \rput(60,89){\includegraphics[height=4cm, keepaspectratio=true]{figures/logo/CE_logo}}
+% \rput[r](55,90){\texttt{\bfseries\large Fachbereich 1}} 
+% \rput[r](55,88){\texttt{\bfseries\large Computer Engineering (Master)}}  
+ 
+ \psframe[
+ framearc=0,
+ linewidth=3pt,
+ linecolor=HTWGreen100
+ ](5,5)(65,94)
+\end{pspicture}
+
+%\def\x{13}
+%\FPinc{\x}
+%Der wert x liegt bei \x .\\
+
+\end{document}

@@ -1,0 +1,5 @@
+PWD D:/Docs/latex_docs/Leistungskurs_Arbeit
+INPUT d:/Program Files (x86)/texlive/2019/texmf.cnf
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/web2c/texmf.cnf
+INPUT d:/Program Files (x86)/texlive/2019/texmf-var/web2c/xetex/xelatex.fmt
+OUTPUT texput.log

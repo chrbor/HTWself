@@ -1,0 +1,557 @@
+
+%    +=================================================+
+%    |    LaTeX class file                             |
+%    +=================================================+
+%    |    Name:         HTWself_manual                 |
+%    |                                                 |
+%    |    Purpose: 	    Anwendung für Hochschulalltag  |
+%    |                                                 |
+%    |    Created:      2022                           |
+%    |                                                 |
+%    |    Usage note:	Dies ist die Anleitung zu der  |
+%    |                  Klasse HTWself. In ihr wurde   |
+%    |                  der Befehl \help bzw \h imple- |
+%    |                  mentiert, mit dem man die Hilfe|
+%    |                  kompilieren lassen kann.       |
+%    +=================================================+
+
+%Präambel:
+\documentclass[exam]{HTWself}
+
+\ohead{}
+\HTWTitle{HTWself\_ manual}
+
+\begin{document}
+
+%<*mainpart>
+
+{\normalfont\HUGE\bfseries\Catcolor Dokumentation von HTWself}\\
+\par
+
+\section*{Vorwort}
+Das Projekt ist etwas größer geworden als anfangs gedacht. Daher diese Dokumentation, um zum einen Ihnen eine bessere Übersicht zu geben, zum anderen jedoch auch, um diese Klasse für nachfolgende Dokumentationen zu nutzen.
+\par
+
+Die Aufgabe, anlässlich der ich diese Klasse für den Kurs \textit{\LaTeX\hspace{0em} für Fortgeschrittene} erstellt habe, schrieb vor zwei Optionen, <exam> und <cv> zu erstellen. Mit <exam> sollte ein Schachbrett mit variierender Farbtiefe der schwarzen Felder, und mit <cv> ein Lebenslauf erstellt werden. Zusätzlich sollte mit jeder Option jeweils eine Minimalversion eines Dokumentencovers erstellt und ausgegeben werden.\\
+\par
+
+Es ist dann doch noch etwas mehr geworden als nur von der Aufgabe vorgegeben. Es wurde in dem Kurs zB sehr stark pstricks thematisiert. Damit hatte man auf einmal ein großes Repetoir zur Verfügung, mit dem man das Dokument um einiges aufwerten kann. Daher habe ich ein bisschen mit Boxen und Überschriften experimentiert und versucht pstricks damit zu vereinigen. Auch multido gab mir interessante Möglichkeiten, verschiedene Aspekte der Klasse zu automatisieren.\\
+\par
+
+Ich hoffe Sie haben mit der Klasse etwas Spaß und fühlen sich nicht komplett erschlagen. Ich habe nach Möglichkeit versucht alles so verständlich wie nur möglich zu schreiben, doch am Ende fehlte doch vllt etwas die Zeit den Code noch weiter aufzuräumen. Alle Operationen sollten zB auch ohne das xifthen- package laufen, welches nicht mit moderncv kompatibel ist. Insoweit könnte man dieses Paket aus der Klasse raus nehmen. Aber dies schränkt die Funktionaltät in keinster Weise ein, sodass alles funktionieren sollte.\\
+
+\newpage
+\section*{Klassen-Optionen}
+Bei beiden Optionen gilt, dass mit xelatex kompiliert werden muss. Beide Optionen bedienen sich von den Optionen dessen zugrunde liegenden Klassen (siehe Beschreibung).\\\\
+Die Option cv ist jetzt essentiell eine Bewerbungsmappe geworden. Dies war zwar in der Form von der Aufgabe nicht gefordert, jedoch wüsste ich nicht wo sonst man ein Deckblatt für einen Lebenslauf benötigt.\\\\
+Die Option exam ist quasi die Option, welche ich wählen würde, um wissenschaftliche Texte zu erstellen.
+\vskip10mm
+
+
+%<*cv>
+\begin{minipage}[t]{0.3\textwidth}
+\textbf{cv}
+\end{minipage}
+\begin{minipage}[t]{0.7\textwidth}
+Diese Option erstellt eine Bewerbungsmappe. Mit dieser Option wird der Befehl \textbackslash HTWCV erstellt, mit dem man einen Lebenslauf kompilieren lassen kann. Es werden alle Optionen und Eigenschaften aus der Klasse "moderncv" übernommen. Es sei angemerkt, dass ein Photo nicht notwendig ist. Ich rate jedoch davon ab kein Photo in eine Bewerbungsmappe einzufügen, da dies meines Erachtens keinen guten Eindruck macht.
+\end{minipage}
+\vskip10mm
+%</cv>
+
+%<*exam>
+\begin{minipage}[t]{0.3\textwidth}
+\textbf{exam}
+\end{minipage}
+\begin{minipage}[t]{0.7\textwidth}
+Diese Option wurde mit dem Gedanken erstellt sie für Protokolle, Arbeiten und Publikationen zu nutzen. In ihr wird der Befehl \textbackslash HTWChecker erstellt, mit dem man das Schachbrett erstellen kann. Es werden alle Optionen und Eigenschaften aus der Klasse "labbook" übernommen. \\\\
+
+\textbf{Achtung:} 
+Diese Option benutzt das Paket "currfile", dass aus dem recorder-file (.fls) den Pfad der Tex-Datei liest. Dies wird dazu genutzt, um den Schriftsatz der HTW zu finden. Daher ist es erforderlich in den Optionen zum kompilieren für xelatex -recorder hinzuzufügen.
+\end{minipage}
+\vskip10mm
+%</exam>
+
+\newpage
+\section*{Commands}
+In nicht alphabetischer Reihenfolge. (sorry!)\\\\
+
+%<*HTWChecker>
+\begin{minipage}[t]{0.3\textwidth}
+\textbf{\textbackslash HTWChecker\\
+\{<startcolor>\}\\
+\{<endcolor>\}\{<xsize>\}\\
+\{<ysize>\}\{<border>\}}
+\end{minipage}
+\begin{minipage}[t]{0.7\textwidth}
+Erstellt ein Schachbrett mit (<xsize> x <ysize>) Feldern. Das linke untere Feld hat die Farbe <startcolor>, das rechte obere Feld <endcolor>, die Felder dazwischen werden linear interpoliert. Nur die schwarzen Felder werden gefärbt, die weißen Felder bleiben durchgängig weiß. Sobald <border> nicht leer ist wird ein Rand mit ausgegeben.\\\\
+
+Das Schachbrett wird mit multido-Schleifen generiert und ist so ausgelegt, dass jede Feldgröße, auch ungerade Zahlen, eingestellt werden kann. Aufgrund der Beschriftung durch Buchstaben kann das Feld nur eine maximale Länge von 28 Feldern haben.
+\end{minipage}
+\label{checker}
+\vskip10mm
+%</HTWChecker>
+
+%<*HTWCV>
+\begin{minipage}[t]{0.3\textwidth}
+\textbf{\textbackslash HTWCV}
+\end{minipage}
+\begin{minipage}[t]{0.7\textwidth}
+Erstellt mit allen angegebenen Informationen ein Minimalbeispiel eines Lebenslaufs. 
+\end{minipage}
+\vskip10mm
+%</HTWCV>
+
+%<*HTWTitle>
+\begin{minipage}[t]{0.3\textwidth}
+\textbf{\textbackslash HTWTitle\\
+\{<Wert>\}}
+\end{minipage}
+\begin{minipage}[t]{0.7\textwidth}
+Setzt den Titel des Dokumentes auf <Wert>. 
+\end{minipage}
+\vskip10mm
+%</HTWTitle>
+
+%<*HTWSubtitle>
+\begin{minipage}[t]{0.3\textwidth}
+\textbf{\textbackslash HTWSubtitle\\
+\{<Wert>\}}
+\end{minipage}
+\begin{minipage}[t]{0.7\textwidth}
+Setzt bei exam den Untertitel und bei cv den Text vor dem Beruf auf <Wert>. 
+\end{minipage}
+\vskip10mm
+%</HTWSubtitle>
+
+%<*HTWCover>
+\begin{minipage}[t]{0.3\textwidth}
+\textbf{\textbackslash HTWCover}
+\end{minipage}
+\begin{minipage}[t]{0.7\textwidth}
+Erstellt passend zu \textbackslash HTWLastpage das Deckblatt mit Hilfe der angegebenen Informationen. 
+\end{minipage}
+\vskip10mm
+%</HTWCover>
+
+%<*HTWLastpage>
+\begin{minipage}[t]{0.3\textwidth}
+\textbf{\textbackslash HTWLastpage}
+\end{minipage}
+\begin{minipage}[t]{0.7\textwidth}
+Erstellt passend zu \textbackslash HTWCover die letzte Seite für das Dokument.
+\end{minipage}
+\vskip10mm
+%</HTWLastpage>
+
+%<*HTWIssueDate>
+\begin{minipage}[t]{0.3\textwidth}
+\textbf{\textbackslash HTWIssueDate\\
+\{<Wert>\}}
+\end{minipage}
+\begin{minipage}[t]{0.7\textwidth}
+Setzt das Datum des Dokumentes. Default ist das aktuelle Datum. 
+\end{minipage}
+\vskip10mm
+%</HTWIssueDate>
+
+%<*HTWReference>
+\begin{minipage}[t]{0.3\textwidth}
+\textbf{\textbackslash HTWReference\\
+\{<Wert>\}}
+\end{minipage}
+\begin{minipage}[t]{0.7\textwidth}
+Nur bei exam. Gibt dem Dokument eine Referenz, welche im Deckblatt ausgegeben wird.
+\end{minipage}
+\vskip10mm
+%</HTWReference>
+
+%<*HTWCourse>
+\begin{minipage}[t]{0.3\textwidth}
+\textbf{\textbackslash HTWCourse\\
+\{<Wert>\}}
+\end{minipage}
+\begin{minipage}[t]{0.7\textwidth}
+Nur bei exam. Bestimmt im Dokument den Semesterkurs, in dem dieses Dokument erstellt wird.
+\end{minipage}
+\vskip10mm
+%</HTWCourse>
+
+%<*HTWJobname>
+\begin{minipage}[t]{0.3\textwidth}
+\textbf{\textbackslash HTWJobname\\
+\{<Wert>\}}
+\end{minipage}
+\begin{minipage}[t]{0.7\textwidth}
+Nur bei cv. Gibt dem Dokument den Namen des Berufs oder der Stelle, bei der man sich bewirbt.
+\end{minipage}
+\vskip10mm
+%</HTWJobname>
+
+%<*HTWSignature>
+\begin{minipage}[t]{0.3\textwidth}
+\textbf{\textbackslash HTWSignature\\
+\{<Scale>\}\{<Pfad>\}}
+\end{minipage}
+\begin{minipage}[t]{0.7\textwidth}
+Nur bei cv. Setzt die Größe \textbackslash signatureScale der Unterschrift mit <Scale> und den Pfad \textbackslash signature mit <Pfad>. 
+\end{minipage}
+\vskip10mm
+%</HTWSignature>
+
+%<*HTWStudent>
+\begin{minipage}[t]{0.3\textwidth}
+\textbf{\textbackslash HTWStudent\\
+\{<firstname>\}\\
+\{<lastname>\}\\
+\{<matrikel>\}\{<mail>\}}
+\end{minipage}
+\begin{minipage}[t]{0.7\textwidth}
+Nur bei exam. Fügt dem Dokument ein Autor hinzu. Es muss entweder <firstname> oder <lastname> angegeben werden. Alle anderen Eingabewerte können auch ausgelassen werden. Mit dem Wert <matrikel> wird die Matrikelnummer angegeben (bitte mit s0... angeben), mit <mail> kann für Kontaktdaten eine Mailadresse angegeben werden. Die Mail wird auf der letzten Seite, alle anderen Sachen auf dem Deckblatt angegeben.\\\\
+
+Der Befehl besitzt noch gesonderte Spezialfälle:\\
+Wird als Mailadresse ein einzelner Buchstabe angegeben, dann wird die Adresse ausgelassen.\\
+Wenn eine Matrikelnummer angegeben wird, aber keine Mailadresse, dann wird aus der Matrikelnummer automatisch eine Adresse generiert. Dies kann mit einem Buchstaben als <mail> unterdrückt werden.
+\end{minipage}
+\vskip10mm
+%</HTWStudent>
+
+%<*Catcolor>
+\begin{minipage}[t]{0.3\textwidth}
+\textbf{\textbackslash Catcolor}
+\end{minipage}
+\begin{minipage}[t]{0.7\textwidth}
+Die Farbe, die der Klassen-Option zugeordnet ist, ausgegeben in \textbackslash color\{<Farbe\}. Für exam ist es das HTWGrün, während es für cv das HTWBlau ist. 
+\end{minipage}
+\vskip10mm
+%</Catcolor>
+
+%<*type>
+\begin{minipage}[t]{0.3\textwidth}
+\textbf{\textbackslash type}
+\end{minipage}
+\begin{minipage}[t]{0.7\textwidth}
+Die Farbe, die der Klassen-Option zugeordnet ist. Für exam ist es das HTWGrün, während es für cv das HTWBlau ist. 
+\end{minipage}
+\vskip10mm
+%</type>
+
+%<*HTWmakecvtitle>
+\begin{minipage}[t]{0.3\textwidth}
+\textbf{\textbackslash HTWmakecvtitle}
+\end{minipage}
+\begin{minipage}[t]{0.7\textwidth}
+Nur bei cv. Verhält sich so wie \textbackslash makecvtitle mit dem einzigen Unterschied, dass auch ein Titel ohne Photo erstellt werden kann.
+\end{minipage}
+\vskip10mm
+%</HTWmakecvtitle>
+
+%<*HTWAttachment>
+\begin{minipage}[t]{0.3\textwidth}
+\textbf{\textbackslash HTWAttachment\\
+\{<name>\}\{<pfad>\}\\
+\{<typ>\}}
+\end{minipage}
+\begin{minipage}[t]{0.7\textwidth}
+Nur bei cv. Fügt dem Dokument einen Anhang hinzu, welcher mit \textbackslash HTWIncludeAttachments bzw mit \textbackslash HTWIncludeAttachment in das Dokument eingefügt werden kann. Es muss <name> angegeben werden. Alle anderen Eingabewerte können auch ausgelassen werden.\\
+Mit dem Wert <pfad> wird der Dateipfad von der tex-Datei aus angegeben, mit <typ> muss im Falle eines Pfades die Art des Anhanges angegeben werden. Dazu stehen zur Auswahl: pdf, tex, png, jpg. Wird kein Pfad oder kein Typ angegeben, dann wird der Anhang von \textbackslash HTWIncludeAttachments und \textbackslash HTWIncludeAttachment nicht ausgegeben.
+\end{minipage}
+\vskip10mm
+
+%<*HTWIncludeAttachments>
+\begin{minipage}[t]{0.3\textwidth}
+\textbf{\textbackslash HTWIncludeAttach-\\ments}
+\end{minipage}
+\begin{minipage}[t]{0.7\textwidth}
+Nur bei cv. Fügt alle angegebenen Anhänge dem Dokument hinzu.
+\end{minipage}
+\vskip10mm
+%</HTWIncludeAttachments>
+
+%<*HTWIncludeAttachmentByPath>
+\begin{minipage}[t]{0.3\textwidth}
+\textbf{\textbackslash HTWIncludeAttach-\\
+mentByPath\{<Pfad>\}\\
+\{<Typ>\}}
+\end{minipage}
+\begin{minipage}[t]{0.7\textwidth}
+Nur bei cv. Fügt den Anhang mit dem Dateipfad <Pfad> und dem Typ <Typ> dem Dokument hinzu. Es gibt die Typen pdf, tex, png, jpg.
+\end{minipage}
+\vskip10mm
+%</HTWIncludeAttachmentByPath>
+
+%<*HTWIncludeAttachmentByName>
+%<*HTWIncludeAttachment>
+\begin{minipage}[t]{0.3\textwidth}
+\textbf{\textbackslash HTWIncludeAttach-\\
+mentByName\{<name>\}}
+\end{minipage}
+\begin{minipage}[t]{0.7\textwidth}
+Nur bei cv. Fügt den Anhang mit dem Namen <name> dem Dokument hinzu.
+\end{minipage}
+\vskip10mm
+
+\begin{minipage}[t]{0.3\textwidth}
+\textbf{\textbackslash HTWIncludeAttach-\\
+ment\{<name>\}}
+\end{minipage}
+\begin{minipage}[t]{0.7\textwidth}
+Nur bei cv. Siehe \textbackslash HTWIncludeAttachmentByName
+\end{minipage}
+\vskip10mm
+%</HTWIncludeAttachmentByName>
+%</HTWIncludeAttachment>
+
+%<*HTWTexAttachmentTag>
+\begin{minipage}[t]{0.3\textwidth}
+\textbf{\textbackslash HTWTexAttachment-\\
+Tag\{<tagname>\}}
+\end{minipage}
+\begin{minipage}[t]{0.7\textwidth}
+Nur bei cv. Gibt dem Dokument den tagname an, der benutzt wird um den Teil von tex-Dateien als Anhang zu laden, der zwischen \%<*tagname> und \%</tagname> steht. Wird der Tag nicht gefunden, dann wird die komplette Datei geladen. Default ist undefiniert.
+\end{minipage}
+\vskip10mm
+%</HTWTexAttachmentTag>
+
+%<*HTWAttachmentHeight>
+\begin{minipage}[t]{0.3\textwidth}
+\textbf{\textbackslash HTWAttachment-\\
+Height\{<Höhe>\}}
+\end{minipage}
+\begin{minipage}[t]{0.7\textwidth}
+Nur bei cv. Setzt die Höhe aller als Anhang eingefügter Bilder in Abhängigkeit zu \textbackslash paperheight auf <Höhe>.
+\end{minipage}
+\vskip10mm
+%</HTWAttachmentHeight>
+
+%<*HTWAttachmentAngle>
+\begin{minipage}[t]{0.3\textwidth}
+\textbf{\textbackslash HTWAttachment-\\
+Angle\{<Winkel>\}}
+\end{minipage}
+\begin{minipage}[t]{0.7\textwidth}
+Nur bei cv. Setzt die Rotation in Grad aller als Anhang eingefügter Bilder auf <Winkel>.
+\end{minipage}
+\vskip10mm
+%</HTWAttachmentAngle>
+
+%</HTWAttachment>
+
+%<*HTWListsOfx>
+\begin{minipage}[t]{0.3\textwidth}
+\textbf{\textbackslash HTWListsOfx}
+\end{minipage}
+\begin{minipage}[t]{0.7\textwidth}
+Nur bei exam. Fügt ein Inhaltsverzeichnis der Gliederungstiefe 1 hinzu.
+\end{minipage}
+\vskip10mm
+%</HTWListsOfx>
+
+%<*getLetter>
+\begin{minipage}[t]{0.3\textwidth}
+\textbf{\textbackslash getLetter\\
+\{<Wert>\}}
+\end{minipage}
+\begin{minipage}[t]{0.7\textwidth}
+Nur bei exam. Gibt das ASCII-Zeichen von <Wert> aus. Dieser Befehl wird für den Rand des Schachfeldes benutzt.
+\end{minipage}
+\vskip10mm
+%</getLetter>
+
+%<*help>
+%<*h>
+\begin{minipage}[t]{0.3\textwidth}
+\textbf{\textbackslash help\\
+\{<Befehl>\}}
+\end{minipage}
+\begin{minipage}[t]{0.7\textwidth}
+Lädt die Definition von <Befehl> aus dieser Dokumentation.
+\end{minipage}
+\vskip10mm
+
+\begin{minipage}[t]{0.3\textwidth}
+\textbf{\textbackslash h}
+\end{minipage}
+\begin{minipage}[t]{0.7\textwidth}
+Lädt dieses Dokument.
+\end{minipage}
+\vskip10mm
+%</help>
+%</h>
+
+%<*HTWbox>
+%<*createHTWbox>
+\begin{minipage}[t]{0.3\textwidth}
+\textbf{\textbackslash createHTWbox\\
+\{<Weite>\}\{<Inhalt>\}}
+\end{minipage}
+\begin{minipage}[t]{0.7\textwidth}
+Erstellt eine unsichtbare Box der Textweite <Weite> mit dem Inhalt <Inhalt>.\\
+Dieser Befehl bildet die Grundlage aller Boxen.
+\end{minipage}
+\vskip10mm
+%</createHTWbox>
+
+%<*HTWInfobox>
+\begin{minipage}[t]{0.3\textwidth}
+\textbf{\textbackslash HTWInfobox\\
+\{<Weite>\}\{<Inhalt>\}\\
+\{<Titel>\}}
+\end{minipage}
+\begin{minipage}[t]{0.7\textwidth}
+Nur bei exam. Erstellt eine eingerahmte Box der Textweite <Weite> mit dem Inhalt <Inhalt>. Optional kann mit <Titel> ein Titel in der oberen rechten Ecke der Box dargestellt werden.\\
+Ein \textbf{\texttt{i}} in der oberen linken Ecke zeigt, dass es sich um eine Infobox handelt.
+\end{minipage}
+\vskip10mm
+%</HTWInfobox>
+
+%<*HTWQuotebox>
+\begin{minipage}[t]{0.3\textwidth}
+\textbf{\textbackslash HTWQuotebox\\
+\{<Weite>\}\{<Inhalt>\}\\
+\{<Titel>\}}
+\end{minipage}
+\begin{minipage}[t]{0.7\textwidth}
+Nur bei exam. Erstellt eine teilweise eingerahmte Box der Textweite <Weite> mit dem Inhalt <Inhalt>. Optional kann mit <Titel> ein Titel in der oberen rechten Ecke der Box dargestellt werden.\\
+\end{minipage}
+\vskip10mm
+%</HTWQuotebox>
+
+%<*HTWHBracketbox>
+%<*HTWBracketbox>
+\begin{minipage}[t]{0.3\textwidth}
+\textbf{\textbackslash HTWBracketbox\\
+\{<Weite>\}\{<Inhalt>\}}
+\end{minipage}
+\begin{minipage}[t]{0.7\textwidth}
+Nur bei exam. Erstellt eine durch Klammern eingerahmte Box der Textweite <Weite> mit dem Inhalt <Inhalt>. 
+\end{minipage}
+\vskip10mm
+
+\begin{minipage}[t]{0.3\textwidth}
+\textbf{\textbackslash HTWHBracketbox\\
+\{<Weite>\}\{<Inhalt>\}}
+\end{minipage}
+\begin{minipage}[t]{0.7\textwidth}
+Siehe \textbackslash HTWBracketbox.
+\end{minipage}
+\vskip10mm
+%</HTWBracketbox>
+%</HTWHBracketbox>
+
+%<*HTWFramebox>
+\begin{minipage}[t]{0.3\textwidth}
+\textbf{\textbackslash HTWFramebox\\
+\{<Weite>\}\{<Inhalt>\}\\
+\{<Titel>\}}
+\end{minipage}
+\begin{minipage}[t]{0.7\textwidth}
+Nur bei exam. Erstellt eine an den Ecken eingerahmte Box der Textweite <Weite> mit dem Inhalt <Inhalt>.
+\end{minipage}
+\vskip10mm
+%</HTWFramebox>
+
+%<*HTWVBracketbox>
+\begin{minipage}[t]{0.3\textwidth}
+\textbf{\textbackslash HTWVBracketbox\\
+\{<Weite>\}\{<Inhalt>\}\\
+\{<Titel>\}}
+\end{minipage}
+\begin{minipage}[t]{0.7\textwidth}
+Nur bei exam. Erstellt eine durch horizontale Klammern eingerahmte Box der Textweite <Weite> mit dem Inhalt <Inhalt>. Optional kann mit <Titel> ein Titel im Zentrum der Klammern dargestellt werden.\\
+\end{minipage}
+\vskip10mm
+%</HTWVBracketbox>
+
+%<*HTWSpeechbubblebox>
+\begin{minipage}[t]{0.3\textwidth}
+\textbf{\textbackslash HTWSpeechbubble-\\
+box\{<Weite>\}\{<Inhalt>\}\\
+\{<Titel>\}\{<Richtung>\}}
+\end{minipage}
+\begin{minipage}[t]{0.7\textwidth}
+Nur bei exam. Erstellt eine Box in Form einer Sprechblase mit der Textweite <Weite> mit dem Inhalt <Inhalt>. Optional kann mit <Titel> ein Titel dargestellt werden. Wenn <Richtung> gleich l ist, dann ist die Sprechblase nach links, ansonsten nach rechts ausgerichtet.
+\end{minipage}
+\vskip10mm
+%</HTWSpeechbubblebox>
+%</HTWbox>
+
+%<*HTWList>
+%<*HTWBulletList>
+\begin{minipage}[t]{0.3\textwidth}
+\textbf{\textbackslash begin\{HTWBulletList\}\\
+...\textbackslash end\{HTWBulletList\}}
+\end{minipage}
+\begin{minipage}[t]{0.7\textwidth}
+Eine Listen-Umgebung, in der der Befehl \textbackslash item dem Farbschema passende Quadrate sind.
+\end{minipage}
+\vskip10mm
+%</HTWBulletList>
+
+%<*HTWdefList>
+\begin{minipage}[t]{0.3\textwidth}
+\textbf{\textbackslash begin\{HTWdefList\}\\
+...\textbackslash end\{HTWdefList\}}
+\end{minipage}
+\begin{minipage}[t]{0.7\textwidth}
+Eine Listen-Umgebung, in der der Befehl \textbackslash item{<name>} dem Farbschema passende kleine Teilüberschriften sind.
+\end{minipage}
+\vskip10mm
+%</HTWdeftList>
+%</HTWList>
+
+\newpage
+
+\section*{HTW-Packages}
+In der Klasse HTWself werden zwei kleine packages verwendet, die ich selber geschrieben habe: HTWMath und HTWColor.\\
+%<*HTWMath>
+\subsection*{HTWMath}
+HTWMath lädt das package \textbackslash xifthen und \textbackslash fp. Es werden folgende Komparatoren hinzugefügt:\\\\
+
+\begin{minipage}[t]{0.7\textwidth}
+\textbf{
+\textbackslash isBigger\{<Wert1>\}\{<Wert2>\}\\
+\textbackslash isSmaller\{<Wert1>\}\{<Wert2>\}\\
+\textbackslash isZero\{<Wert1>\}\\
+\textbackslash isOne\{<Wert1>\}\\
+\textbackslash isNegative\{<Wert1>\}\\
+\textbackslash isInRange\{<Wert>\}\{<Min>\}\{<Max>\}
+}
+\end{minipage}
+\begin{minipage}[t]{0.3\textwidth}
+Wert1 > Wert2\\
+Wer1 < Wert2\\
+Wert1 = 0\\
+Wert1 = 1\\
+Wert1 < 0\\
+Wert1 > Min AND\\Wert1 < Max
+\end{minipage}
+\vskip10mm
+Folgende Operatoren werden durch HTWMath hinzugefügt:\\\\
+\begin{minipage}[t]{0.7\textwidth}
+\textbf{
+\textbackslash FPmod\{<Wert1>\}\{<Wert2>\}\\
+\textbackslash FPinc\{<Wert1>\}\\
+\textbackslash FPdec\{<Wert1>\}
+}
+\end{minipage}
+\begin{minipage}[t]{0.3\textwidth}
+Wert1 modulo Wert2\\
+Wert1 := Wert1 + 1\\
+Wert1 := Wert1 - 1
+\end{minipage}
+\vskip10mm
+%</HTWMath>
+%<*HTWColor>
+\subsection*{HTWColor}
+HTWColor lädt das package \textbackslash xcolor mit der Option table. Die zusätzliche Option ist für die Klasse moderncv notwendig. In HTWColor werden die Farben der HTW Berlin definiert: HTWGreen ist die Hauptfarbe, HTWBlue steht für Service-Einrichtungen, HTWOrange für Infrasruktur und HTWGray existiert, um die Farbpalette abzurunden.\\\\
+Farben sind folgend benannt: \textbf{HTW<color><intensity>}\\
+zB HTWGreen100 ist HTWGreen in voller Intensität. HTWGreen50 ist HTWGreen mit halber Intensität.
+Die Farben sind zudem in 5er-Schritten definiert. Unzulässig ist zB HTWGreen52.\\
+Es gibt des weiteren noch eine dunkle Variante der Farbe mit 'Dark' statt der Intensität.zB HTWGreenDark ist dunkelgrün.
+\vskip10mm
+%</HTWColor>
+
+
+%</mainpart>
+
+\end{document}

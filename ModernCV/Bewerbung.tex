@@ -1,0 +1,74 @@
+
+%		****************************************************************************
+%			USEPACKAGES
+%		****************************************************************************
+
+\input{parts/structure}
+
+
+
+
+%		****************************************************************************
+%			Bewerberangaben		Name+Bild
+%		****************************************************************************
+
+\firstname{Max oder Maxi}
+\familyname{Muster}
+\title{curriculum vitae}
+\address{Musterstr.03, 13893 Köln}
+\mobile{0175 34625732}
+%\phone{xxx}
+\email{testadrrese@gmail.com}
+\photo[3cm]{fig/photo.jpg}
+
+
+
+
+
+
+
+
+
+\begin{document}
+
+
+
+%		****************************************************************************
+%			COVER LETTER
+%		****************************************************************************
+
+\input{parts/Anschreiben}
+
+
+
+
+
+
+
+
+
+%		****************************************************************************
+%			CURRICULUM VITAE
+%		****************************************************************************
+
+\input{parts/Lebenslauf}
+
+\input{parts/Ergaenzungen}
+
+
+
+
+\label{lastpage}    %	muss zusätzlich eingefügt werden, anscheinend liegt bug vor und
+					%	anderweitig Seitenzahlen im Dokument nicht ausgegeben
+
+
+
+
+%		****************************************************************************
+%			ANHANG der BEWERBUNG
+%		****************************************************************************
+
+\input{parts/Anhang}
+
+
+\end{document}

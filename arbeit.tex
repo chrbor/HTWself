@@ -1,0 +1,160 @@
+%===========================================%
+% Optionen: cv/exam                         %
+% exam braucht aufgrund der Graphiken ein   % 
+% bisschen länger zum kompilieren           %
+%                                           %
+% Hinweis:                                  %
+% die Dokumentation der Klasse kann         %
+% entweder extern oder aber durch den       %
+% befehl \h geöffnet werden.                %
+% Spezielle Befehle können mit dem Befehl   %
+% \help{<befehl>} nachgeschlagen werden.    %
+% (bitte <befehl> ohne Backslash eingeben)  %
+%                                           %
+% Weiterhin benutzt die Option exam das     %
+% Paket "currfile", dass den Pfad des       %
+% Projektes aus dem recorder-file entnimmt  %
+% Daher bitte in den Kompilier-Optionen     %
+% bei xelatex -recorder einfügen.           %
+%                                           %
+%===========================================%
+% Viel Spaß mit der Klasse HTWself ;)       %
+%===========================================%
+
+\documentclass[cv]{HTWself}
+
+\begin{document}
+%\help{cv}
+%\help{HTWCV}
+%\h
+
+\ifthenelse{\equal{\type}{exam}}{%über type kann die option abgerufen werden
+
+	\HTWTitle{Abschlussarbeit}
+	\HTWSubtitle{Implementierung von Videodenoising-Algorithmen zum Entrauschen von faseroptischen Signalen}
+	\HTWReference{DOC\_01284-4C}	
+
+	\HTWStudent{Christopher}{Borchadt}{s0549085}{cborchardt95@gmail.com}
+	%"erfundene" Studenten zum Zwecke der Demo:
+	\HTWStudent{Leon}{Walsinger}{s0532124}{}%leere Eingabe bewirkt, dass aus der Matrikelnummer die Adresse generiert wird
+	\HTWStudent{Susanne}{Habrecht}{s0511111}{/}%einzelner Buchstabe bewirkt, dass die Adresse weggelassen wird
+	\HTWStudent{Peter}{Hausmann}{}{Hausmann@gmail.com}%Es können auch Leute ohne Matrikelnummer eingefügt werden	
+
+	\HTWCourse{\LaTeX\hspace{0em} für Fortgeschrittene}
+	\HTWReviewer{Abdullah Bassem Peter Al Jamal}
+	
+	\HTWCover
+	\HTWListsOfx
+	\chapter{Das Schachbrett}
+	Folgend das Schachbrett:\\
+	\psset{xunit=1cm, yunit=1cm}
+	\begin{center}
+		\HTWChecker{red}{blue}{4}{4}{}		
+	\end{center}
+	\vskip10mm
+	Das Schachbrett lässt sich nahzu beliebig skalieren:\\
+		\begin{center}
+		\HTWChecker{HTWGreen100}{HTWBlue100}{12}{3}{}		
+	\end{center}
+	
+	\newpage
+	Es kann sogar eine Skalierung in der Art eines Schachfeldes hinzugefügt werden:\\
+		\begin{center}
+		\HTWChecker{black}{black}{8}{8}{x}
+		\end{center}
+	\par
+		
+	\chapter{Überschriften}
+	\section{Sektion}
+	\subsection{Untersektion}
+	\subsubsection{Unteruntersektion}
+	Ich bin ein normaler Text
+	\newpage
+	
+	\chapter{Listen und Boxen}
+	\section{Startzüge}
+	\blindtext
+	\begin{HTWBulletList}
+	\item
+	Mache den ersten Zug\\Der Spieler, der startet, hat immer einen leichten Vorteil
+	\item
+	Versuche die Dominanz des Feldes zu ergreifen
+	\item
+	Schütze deine Figuren mit anderen Figuren
+	\end{HTWBulletList}
+	\blindtext	
+	
+	\newpage
+	\subsection{Varianten}
+	\blindtext
+	
+	\begin{HTWdefList}
+	\item[Die erste Sache]
+	Mache den ersten Zug\\Der Spieler, der startet hat immer einen leichten Vorteil
+	\item[Die zweite Sache]
+	Versuche die Dominanz des Feldes zu ergreifen
+	\item[Die dritte Sache]
+	Schütze deine Figuren mit anderen Figuren
+	\end{HTWdefList}
+	%\newpage
+	
+	\begin{wrapfigure}{r}{0.5\textwidth}%[l]eft, [r]ight, [i]nner, [o]uter
+	\HTWSpeechbubblebox{0.75}{
+	Sollten Sie mal eine interessante Information mit ihren Lesern teilen wollen, dann können sie diese Sprechblase nutzen!  
+	}{Info}{}
+	\end{wrapfigure}
+	\blindtext
+	\\\par
+	\blindtext
+	\newpage
+	\HTWQuotebox{1}{\blindtext}{Test}
+	\blindtext
+	\HTWInfobox{1}{\blindtext}{Info}
+	\blindtext
+	\newpage
+	
+	\HTWBracketbox{1}{
+	{\bfseries\large\color{HTWGreen100} Wichtige Sachen zum Schreiben}\\\\
+	Der Satz des Pythagoras lautet:\\
+	\begin{equation}
+	a^2 + b^2 = c^2
+	\end{equation}
+	Wenn man c haben möchte, dann muss man die Gleichung umstellen:\\
+	\begin{equation}
+	c = \sqrt{a^2 + b^2}
+	\end{equation}
+	}
+	\blindtext
+	\blindtext
+	
+	\HTWVBracketbox{1}{\blindtext}{Code1.code}
+	\newpage	
+	\blindtext	
+	\HTWFramebox{1}{\blindtext}
+	\blindtext
+	\newpage
+	
+	\HTWLastpage
+}{
+%\h
+	\HTWTitle{Bewerbung}
+	\HTWSubtitle{Um einen Ausbildungsplatz als}
+	\HTWJobname{Nachhilfelehrkraft (m/w)}
+%	\photo[0pt]{ModernCV/fig/photo.jpg}%0pt Nimmt das Bild aus den Lebenslauf raus
+	\photo{}%0 Kein Bild(nicht empfohlen, da sonst ein schlechterer Eindruck entsteht)
+	
+	\HTWAttachment{Lebenslauf}{}{}%Lebenslauf wird von der Klasse selbst erstellt, daher wird keine externe Datei inkludiert
+	\HTWAttachment{Background.pdf}{pspictures/BG1.pdf}{pdf}	
+	\HTWAttachment{Anschreiben}{ModernCV/parts/Anschreiben.tex}{tex}
+	\HTWAttachment{Tolles Bild}{ModernCV/fig/photo.jpg}{jpg}
+
+%	\HTWAttachmentAngle{-90}
+	\HTWAttachmentHeight{0.7}%passe die Höhe der jpg/png-Dateien an
+	\HTWCover	
+	\HTWCV
+	\HTWIncludeAttachments
+%	\HTWIncludeAttachment{Tolles Bild}
+	\HTWIncludeAttachment{nichtGegeben}%Attachments, die nicht definiert sind, werden übersprungen
+%	\HTWLastpage
+}
+\end{document}

@@ -1,0 +1,598 @@
+PWD D:/Docs/latex_docs/Leistungskurs_Arbeit
+INPUT d:/Program Files (x86)/texlive/2019/texmf.cnf
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/web2c/texmf.cnf
+INPUT d:/Program Files (x86)/texlive/2019/texmf-var/web2c/xetex/xelatex.fmt
+INPUT arbeit.tex
+OUTPUT arbeit.log
+INPUT HTWself.cls
+INPUT HTWself.cls
+INPUT HTWColor.sty
+INPUT HTWColor.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/graphics-def/xetex.def
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/graphics-def/xetex.def
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/colortbl/colortbl.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/colortbl/colortbl.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/tools/array.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/tools/array.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/base/ifthen.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/base/ifthen.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/labbook/labbook.cls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/labbook/labbook.cls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/koma-script/scrbook.cls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/koma-script/scrbook.cls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/koma-script/scrkbase.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/koma-script/scrkbase.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/koma-script/scrbase.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/koma-script/scrbase.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/koma-script/scrlfile.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/koma-script/scrlfile.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/koma-script/tocbasic.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/koma-script/tocbasic.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/koma-script/typearea.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/koma-script/typearea.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/base/makeidx.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/base/makeidx.sty
+OUTPUT arbeit.idx
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/koma-script/scrlayer-scrpage.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/koma-script/scrlayer-scrpage.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/koma-script/scrlayer.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/koma-script/scrlayer.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/hyperref/hyperref.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/hyperref/hyperref.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/oberdiek/auxhook.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/oberdiek/auxhook.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/hyperref/pd1enc.def
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/hyperref/pd1enc.def
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/url/url.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/url/url.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/hyperref/hxetex.def
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/hyperref/hxetex.def
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/hyperref/puenc.def
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/hyperref/puenc.def
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/oberdiek/stringenc.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/oberdiek/stringenc.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/geometry/geometry.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/geometry/geometry.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/currfile/currfile.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/currfile/currfile.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/filehook/filehook.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/filehook/filehook.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/filehook/filehook-scrlfile.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/filehook/filehook-scrlfile.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/currfile/currfile-abspath.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/currfile/currfile-abspath.sty
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT arbeit.tex
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/fontspec/fontspec.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/fontspec/fontspec.sty
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/fontspec/fontspec.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3.sty
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+INPUT ./nul
+INPUT ./nul
+INPUT ./nul
+INPUT ./nul
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/unicode-data/UnicodeData.txt
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/unicode-data/UnicodeData.txt
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/unicode-data/CaseFolding.txt
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/unicode-data/CaseFolding.txt
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/unicode-data/SpecialCasing.txt
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/unicode-data/SpecialCasing.txt
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/l3kernel/l3deprecation.def
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/l3kernel/l3deprecation.def
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/l3backend/l3backend-xdvipdfmx.def
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/l3backend/l3backend-xdvipdfmx.def
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/l3backend/l3backend-xdvipdfmx.def
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/base/tuenc.def
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/base/fontenc.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/base/fontenc.sty
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/base/fontenc.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/base/tuenc.def
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/base/tuenc.def
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/base/tuenc.def
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/fontspec/fontspec.cfg
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/fontspec/fontspec.cfg
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/fontspec/fontspec.cfg
+INPUT HTWMath.sty
+INPUT HTWMath.sty
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT HTWMath.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/fp/fp.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/fp/fp.sty
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/fp/fp.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/fp/defpattern.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/fp/defpattern.sty
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/fp/defpattern.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/fp/fp-basic.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/fp/fp-basic.sty
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/fp/fp-basic.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/fp/fp-addons.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/fp/fp-addons.sty
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/fp/fp-addons.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/fp/fp-snap.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/fp/fp-snap.sty
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/fp/fp-snap.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/fp/fp-exp.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/fp/fp-exp.sty
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/fp/fp-exp.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/fp/fp-trigo.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/fp/fp-trigo.sty
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/fp/fp-trigo.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/fp/fp-pas.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/fp/fp-pas.sty
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/fp/fp-pas.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/fp/fp-random.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/fp/fp-random.sty
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/fp/fp-random.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/fp/fp-eqn.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/fp/fp-eqn.sty
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/fp/fp-eqn.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/fp/fp-upn.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/fp/fp-upn.sty
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/fp/fp-upn.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/fp/fp-eval.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/fp/fp-eval.sty
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/fp/fp-eval.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/xifthen/xifthen.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/xifthen/xifthen.sty
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/xifthen/xifthen.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/tools/calc.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/tools/calc.sty
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/tools/calc.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/babel/babel.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/babel/babel.sty
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/babel/babel.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/babel/switch.def
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/babel-german/ngerman.ldf
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/babel-german/ngerman.ldf
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/babel-german/ngerman.ldf
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/babel-german/ngermanb.ldf
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/babel/babel.def
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/babel/xebabel.def
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/babel/txtbabel.def
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/moresize/moresize.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/moresize/moresize.sty
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/moresize/moresize.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/multido/multido.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/multido/multido.sty
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/multido/multido.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/multido/multido.tex
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/multido/multido.tex
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/multido/multido.tex
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/amsmath/amsbsy.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/amsmath/amsbsy.sty
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/amsmath/amsbsy.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/amsfonts/amssymb.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/amsfonts/amssymb.sty
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/amsfonts/amssymb.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/pstricks/pstricks.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/pstricks/pstricks.sty
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/pstricks/pstricks.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/iftex/iftex.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/iftex/iftex.sty
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/iftex/iftex.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/tools/shellesc.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/tools/shellesc.sty
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/tools/shellesc.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/xkeyval/pst-xkey.tex
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/xkeyval/pst-xkey.tex
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/xkeyval/pst-xkey.tex
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/pstricks/pstricks.tex
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/pstricks/pstricks.tex
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/pstricks/pstricks.tex
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/pstricks/pst-fp.tex
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/xelatex/xetex-pstricks/pstricks.con
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/pstricks/config/xdvipdfmx.cfg
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/xelatex/xetex-pstricks/pstricks.con
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/pstricks/config/xdvipdfmx.cfg
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/pstricks/pst-fp.tex
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/pstricks/pst-fp.tex
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/pstricks/pst-fp.tex
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/pstricks/pstricks-xetex.def
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/pstricks/pstricks-xetex.def
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/pstricks/pstricks-xetex.def
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/auto-pst-pdf/auto-pst-pdf.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/auto-pst-pdf/auto-pst-pdf.sty
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/auto-pst-pdf/auto-pst-pdf.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/ifplatform/ifplatform.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/ifplatform/ifplatform.sty
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/ifplatform/ifplatform.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/oberdiek/catchfile.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/oberdiek/catchfile.sty
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/oberdiek/catchfile.sty
+INPUT nul
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/pst-pdf/pst-pdf.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/pst-pdf/pst-pdf.sty
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/pst-pdf/pst-pdf.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/catchfilebetweentags/catchfilebetweentags.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/catchfilebetweentags/catchfilebetweentags.sty
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/catchfilebetweentags/catchfilebetweentags.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/etex-pkg/etex.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/etex-pkg/etex.sty
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/etex-pkg/etex.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/pdfpages/ppxetex.def
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/pdfpages/ppxetex.def
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/pdfpages/ppxetex.def
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/blindtext/blindtext.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/blindtext/blindtext.sty
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/blindtext/blindtext.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/tools/xspace.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/tools/xspace.sty
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/tools/xspace.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/listings/listings.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/listings/listings.sty
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/listings/listings.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/listings/lstmisc.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/listings/lstmisc.sty
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/listings/lstmisc.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/listings/listings.cfg
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/listings/listings.cfg
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/listings/listings.cfg
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/titlesec/titlesec.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/titlesec/titlesec.sty
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/titlesec/titlesec.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/listings/lstmisc.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/listings/lstmisc.sty
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/listings/lstmisc.sty
+INPUT arbeit.aux
+INPUT arbeit.aux
+OUTPUT arbeit.aux
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+INPUT arbeit.out
+INPUT arbeit.out
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT arbeit.out
+INPUT arbeit.out
+INPUT arbeit.out
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT arbeit.out
+INPUT ./arbeit.out
+OUTPUT arbeit.out
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/oberdiek/bookmark.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/oberdiek/bookmark.sty
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/oberdiek/bookmark.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/oberdiek/bkm-dvipdfm.def
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/oberdiek/bkm-dvipdfm.def
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/oberdiek/bkm-dvipdfm.def
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/graphics/lscape.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/graphics/lscape.sty
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/graphics/lscape.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
+INPUT code/sodokuSolver.cpp
+INPUT code/sodokuSolver.cpp
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT code/sodokuSolver.cpp
+INPUT code/sodokuSolver.cpp
+INPUT code/sodokuSolver.cpp
+INPUT code/sodokuSolver.cpp
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT code/sodokuSolver.cpp
+INPUT code/sodokuSolver.cpp
+INPUT code/sodokuSolver.cpp
+INPUT code/sodokuSolver.cpp
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT code/sodokuSolver.cpp
+INPUT code/sodokuSolver.cpp
+INPUT code/sodokuSolver.cpp
+INPUT code/sodokuSolver.cpp
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT code/sodokuSolver.cpp
+INPUT code/sodokuSolver.cpp
+INPUT code/sudoku2.PNG
+INPUT code/sudoku3.PNG
+INPUT code/sudoku4.PNG
+INPUT code/sudoku5.PNG
+INPUT code/sodokuSolver.cpp
+INPUT code/sodokuSolver.cpp
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT code/sodokuSolver.cpp
+INPUT code/sodokuSolver.cpp
+INPUT arbeit.aux
+INPUT ./arbeit.out

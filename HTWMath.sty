@@ -1,0 +1,51 @@
+%    +=================================================+
+%    |    LaTeX package file                           |
+%    +=================================================+
+%    |    Name:     HTWMath                            |
+%    |                                                 |
+%    |    Purpose:  Anwendung für Hochschulalltag      |
+%    |                                                 |
+%    |    Created:  2022			                   |
+%    |                                                 |
+%    |    Notiz:    Dieses Package komplementiert das  |
+%    |              fp- Package um wichtige	mathema-   |
+%    |              tische Operatoren und Funktionen   |
+%    +=================================================+
+
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{HTWMath}[2022/21/02 general purpose]
+
+\DeclareOption*{\PackageWarning{HTWMath}{Die Option ‘\CurrentOption’ ist fuer dieses Paket nicht definiert und wird daher ignoriert!}}
+
+%Wende Eingaben an:
+\ProcessOptions\relax
+
+
+%Packages:
+\RequirePackage{fp}
+
+\RequirePackage{xifthen}
+
+%====================================================%
+%	Operatoren:                                      %
+%====================================================%
+
+%Modulus:
+\newcommand{\FPmod}[2]{clip(#1 - trunc(#1 / #2:0) * #2)}
+\newcommand{\FPinc}[1]{\FPeval{#1}{clip(#1 + 1)}}
+\newcommand{\FPdec}[1]{\FPeval{#1}{clip(#1 - 1)}}
+
+%====================================================%
+%	Komparatoren:                                    %
+%====================================================%
+
+\newtest{\isBigger}[2]{\cnttest{#1}>{#2}}
+\newtest{\isSmaller}[2]{\cnttest{#1}<{#2}}
+
+\newtest{\isZero}[1]{\cnttest{#1}={0}}
+\newtest{\isOne}[1]{\cnttest{#1}={1}}
+\newtest{\isNegative}[1]{\cnttest{#1}<{0}}
+\newtest{\isPositive}[1]{\cnttest{#1}>{0}}
+
+\newtest{\isInRange}[3]{\cnttest{#1}>{#2} \AND \cnttest{#1}<{#3}}
