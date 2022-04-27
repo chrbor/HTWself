@@ -22,7 +22,7 @@
 \ProcessOptions\relax
 
 %Packages:
-\RequirePackage[table]{xcolor}
+\@ifpackageloaded{xcolor}{}{\RequirePackage[table]{xcolor}}
 
 % corporate design HTW Berlin
 % see https://corporatedesign.htw-berlin.de/schrift-farbe/markenfarben/

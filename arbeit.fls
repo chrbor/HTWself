@@ -477,19 +477,34 @@ INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/titlesec/titlesec
 INPUT arbeit.fls
 INPUT arbeit.fls
 INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/titlesec/titlesec.sty
-INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
-INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
+INPUT HTWCode.sty
+INPUT HTWCode.sty
 INPUT arbeit.fls
 INPUT arbeit.fls
-INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
-INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/listings/lstmisc.sty
-INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/listings/lstmisc.sty
+INPUT HTWCode.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/matlab-prettifier/matlab-prettifier.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/matlab-prettifier/matlab-prettifier.sty
 INPUT arbeit.fls
 INPUT arbeit.fls
-INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/listings/lstmisc.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/matlab-prettifier/matlab-prettifier.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/base/textcomp.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/base/textcomp.sty
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/base/textcomp.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/base/ts1enc.def
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/base/ts1enc.def
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/base/ts1enc.def
 INPUT arbeit.aux
 INPUT arbeit.aux
 OUTPUT arbeit.aux
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/base/ts1cmr.fd
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/base/ts1cmr.fd
+INPUT arbeit.fls
+INPUT arbeit.fls
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/base/ts1cmr.fd
 INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT arbeit.fls
@@ -532,6 +547,8 @@ INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/graphics/lscape.s
 INPUT arbeit.fls
 INPUT arbeit.fls
 INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/graphics/lscape.sty
+INPUT HTWself_manual.tex
+INPUT HTWself_manual.tex
 INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
 INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
 INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
@@ -560,39 +577,42 @@ INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/s
 INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
-INPUT code/sodokuSolver.cpp
-INPUT code/sodokuSolver.cpp
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
 INPUT arbeit.fls
 INPUT arbeit.fls
-INPUT code/sodokuSolver.cpp
-INPUT code/sodokuSolver.cpp
-INPUT code/sodokuSolver.cpp
-INPUT code/sodokuSolver.cpp
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/listings/lstmisc.sty
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/listings/lstmisc.sty
 INPUT arbeit.fls
 INPUT arbeit.fls
-INPUT code/sodokuSolver.cpp
-INPUT code/sodokuSolver.cpp
-INPUT code/sodokuSolver.cpp
-INPUT code/sodokuSolver.cpp
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/tex/latex/listings/lstmisc.sty
+INPUT code/main.cpp
+INPUT code/main.cpp
 INPUT arbeit.fls
 INPUT arbeit.fls
-INPUT code/sodokuSolver.cpp
-INPUT code/sodokuSolver.cpp
-INPUT code/sodokuSolver.cpp
-INPUT code/sodokuSolver.cpp
+INPUT code/main.cpp
+INPUT code/main.cpp
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex9.tfm
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+INPUT d:/Program Files (x86)/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
+INPUT code/main.cpp
+INPUT code/main.cpp
 INPUT arbeit.fls
 INPUT arbeit.fls
-INPUT code/sodokuSolver.cpp
-INPUT code/sodokuSolver.cpp
-INPUT code/sudoku2.PNG
-INPUT code/sudoku3.PNG
-INPUT code/sudoku4.PNG
-INPUT code/sudoku5.PNG
-INPUT code/sodokuSolver.cpp
-INPUT code/sodokuSolver.cpp
+INPUT code/main.cpp
+INPUT code/main.cpp
+INPUT code/main.cpp
+INPUT code/main.cpp
 INPUT arbeit.fls
 INPUT arbeit.fls
-INPUT code/sodokuSolver.cpp
-INPUT code/sodokuSolver.cpp
+INPUT code/main.cpp
+INPUT code/main.cpp
 INPUT arbeit.aux
 INPUT ./arbeit.out
